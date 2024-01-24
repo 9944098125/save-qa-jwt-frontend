@@ -1,0 +1,21 @@
+.login-bg {
+	background: linear-gradient(
+		rgb(0, 147, 113),
+		rgb(0, 238, 255),
+		rgb(149, 255, 248)
+	);
+	height: 100vh;
+	width: 100%;
+}
+.login-fields {
+	line-height: 2 !important;
+}
+.link {
+	color: white !important;
+	font-weight: 800;
+	font-size: 25px;
+}
+.link:hover {
+	color: rgb(0, 60, 137) !important;
+	text-decoration: underline !important;
+}

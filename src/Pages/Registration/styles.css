@@ -1,0 +1,23 @@
+.register-fields {
+	width: 100% !important;
+	height: 45px;
+}
+.register-bg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	position: relative;
+}
+.register-bg::before {
+	position: absolute;
+	content: "";
+	background-size: cover;
+	background-position: center;
+	background-image: url("../../Assets//register-bg.webp");
+	opacity: 0.2;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
